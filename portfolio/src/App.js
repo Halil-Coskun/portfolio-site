@@ -1,14 +1,16 @@
 import './App.css';
-import ContactMeButton from './Components/ContactMeButton';
-
+import ResponsiveAppBar from './Components/AppBar';
+import PortfolioButton from './Components/PortfolioButton';
+import Introduction from './Components/Introduction'
 
 
 
 function App() {
   return (
     <div className="App">
-    <p>Hello</p>
-    <ContactMeButton/>
+    <ResponsiveAppBar/>
+    {/* <PortfolioButton/> */}
+    <Introduction/>
     </div>
   );
 }
