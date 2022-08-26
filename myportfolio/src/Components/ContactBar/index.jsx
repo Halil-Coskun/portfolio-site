@@ -7,13 +7,13 @@ function ContactBar() {
 	return (
 		<div className={styles.contact_bar_wrapper}>
 			<div className={styles.contact_bar}>
-				<a href="https://www.linkedin.com/in/halilcskn/" target="_blank" className={styles.icon} >
+				<a href="https://www.linkedin.com/in/halilcskn/" target="_blank" className={styles.icon} rel="noreferrer" >
 					<LinkedInIcon color='warning' />
 				</a>
-				<a href="https://github.com/Halil-Coskun" target="_blank" className={styles.icon} >
+				<a href="https://github.com/Halil-Coskun" target="_blank" className={styles.icon} rel="noreferrer" >
 					<GitHubIcon color='warning' />
 				</a>
-				<a href="" target="_blank" className={styles.icon} >
+				<a href="#contact" className={styles.icon} >
 					<EmailIcon  color='warning' />
 				</a>
 				<div className={styles.line}></div>

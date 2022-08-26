@@ -10,9 +10,24 @@
 
 
 .heading_1 {
-    font-size: 80px;
-    color: var(--halilOrange);
+    font-size: 10vw;
+    color: var(--halil-orange);
     margin: 0;
+}
+.heading_1:hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
 }
 
 .headshot {
@@ -22,22 +37,22 @@
 }
 
 .heading_2 {
-    font-size: 65px;
+    font-size: 5vw;
     margin: 0;
     color: var(--lightest-slate);
 }
 
 .desc {
-    font-size: var(--fz-md);
-    width: 65%;
+    font-size: 5 vw;
+    min-width: 55%;
 }
 
 .btn {
     outline: none;
     font-size: var(--fz-md);
     background: transparent;
-    border: 1px solid var(--halilOrange);
-    color: var(--halilOrange);
+    border: 1px solid var(--halil-orange);
+    color: var(--halil-orange);
     border-radius: 5px;
     padding: 15px 20px;
     width: 200px;
@@ -46,5 +61,6 @@
 }
 
 .btn:hover {
-    background: var(--btn-tint);
+    border: 1px solid var(--halil-lime);
+    color: var(--halil-lime);
 }

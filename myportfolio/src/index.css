@@ -31,9 +31,10 @@ a {
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
   --white: #e6f1ff;
-  --halilNavy: #003049;
-  --halilOrange: #FF9F00;
-  --orange-tint: rgba(255, 190, 100, 0.1);
+  --halil-navy: #003049;
+  --halil-orange: #ed6c02;
+  --orange-tint: rgba(255, 190, 100, 0.5);
+  --halil-lime: #64dd17;
 
 
   --fz-xxs: 12px;

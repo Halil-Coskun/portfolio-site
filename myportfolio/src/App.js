@@ -1,7 +1,7 @@
 import Navbar from "./Components/Navbar";
 import Home from "./Sections/Home";
 import About from "./Sections/About";
-import Experience from "./Sections/Experience";
+// import Experience from "./Sections/Experience";
 import Work from "./Sections/Work";
 import Contact from "./Sections/Contact";
 import ContactBar from "./Components/ContactBar";
@@ -15,7 +15,7 @@ function App() {
 			<div className="app_section_container">
 				<Home />
 				<About />
-				<Experience />
+				 {/* <Experience /> */}
 				<Work />
 				<Contact />
 			</div>

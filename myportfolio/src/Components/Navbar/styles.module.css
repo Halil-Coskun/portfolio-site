@@ -4,8 +4,7 @@
     position: fixed;
     width: 100%;
     height: 70px;
-    background-color: var(--transparent-navy);
-    
+    background-color: var(--Halil-navy);
     box-shadow: var(--navy-shadow);
     display: flex;
     justify-content: space-between;
@@ -30,18 +29,15 @@
 
 .nav_link {
     font-size: var(--fz-sm);
-    color: var(--halilOrange);
+    color: var(--halil-orange);
     cursor: pointer;
     margin-left: 26px;
 }
 
-.nav_link > span {
-    color: var(--green);
-    margin-right: 5px;
-}
+
 
 .nav_link:hover {
-    color: var(--green);
+    color: var(--halil-lime);
 }
 
 .nav_resume_btn {
@@ -54,8 +50,4 @@
     padding: 10px 15px;
     cursor: pointer;
     margin-left: 26px;
-}
-
-.nav_resume_btn:hover {
-    background: var(--green-tint);
 }
