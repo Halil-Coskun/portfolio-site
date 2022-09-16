@@ -19,7 +19,7 @@ function About() {
 				</div>
 				<div className={styles.right}>
 					<img
-						src="./images/profile.jpg"
+						src="https://photos.google.com/share/AF1QipOar8yw85ZE-VMeuO52EKEvoBjLFRRRgrmmocbAxRPVvX7DXwIU8pqolA0X6Xq-Dw?key=VnlZSkF1WlFPYks0R19QTkctSWlYLUo1U09ROERR"
 						alt="profile"
 						className={styles.profile_img}
 					/>

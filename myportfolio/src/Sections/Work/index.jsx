@@ -1,15 +1,15 @@
 import Heading from "./../../Components/Heading";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import constant from "../../constant.json";
+import projects from "../../projects.json";
 import styles from "./styles.module.css";
 
 function Work() {
 	return (
 		<section id="work">
-			<Heading index="03" heading="Some Things I’ve Built" />
+			<Heading index="03" heading="My Projects" />
 			<div className={styles.container}>
-				{constant.projects.map((project, index) =>
+				{projects.projects.map((project, index) =>
 					index % 2 === 0 ? (
 						<div className={styles.project}>
 							<div className={styles.left}>

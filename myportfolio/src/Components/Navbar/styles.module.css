@@ -1,9 +1,9 @@
 .nav_container {
     top: 0;
     left: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 70px;
+    height: 5%;
     background-color: var(--Halil-navy);
     box-shadow: var(--navy-shadow);
     display: flex;
@@ -38,6 +38,7 @@
 
 .nav_link:hover {
     color: var(--halil-lime);
+    transform: translateY(-20px);
 }
 
 .nav_resume_btn {

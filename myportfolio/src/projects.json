@@ -39,17 +39,17 @@
     ],
     "projects": [
         {
-            "title":"Ecommerce",
+            "title":"Green Basket - Digital Foodbank App",
             "image": "./images/project_1.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "skills": ["React", "Express", "MongoDB"],
-            "github": "/",
-            "link": ""
+            "desc": "As a team of 6 at the School of Code, we built a full-stack digital food bank web app that allows various users to reserve and donate food items, find foodbanks local to them and manage food bank inventory in an interactive, stigma-free manner.  ",
+            "skills": ["React", "Express", "PostgreSQL"],
+            "github": "https://github.com/SchoolOfCode/final-project_front-end-veraison",
+            "link": "https://greenbskt.netlify.app/"
         },
         {
-            "title":"Spotify",
+            "title":"School of Code Proficiency Tracker",
             "image": "./images/project_2.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "desc": " I worked as a team to develop a web app that would enhance the learning experience of fellow School of Code bootcampers. We built a proficiency tracker which enables bootcampers to track their progress and learning throughout their 16-week journey",
             "skills": ["React", "Express", "MongoDB"],
             "github": "/",
             "link": "/"
